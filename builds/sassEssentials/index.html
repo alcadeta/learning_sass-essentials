@@ -8,8 +8,8 @@
 </head>
 <body>
 <header>
-  <div class="container">
-    <nav>
+  <nav>
+    <div class="container">
       <div class="branding"><h1>Table of Contents</h1></div>
       <ul>
         <li><a href="#jumbotron">Jumbotron</a></li>
@@ -18,10 +18,9 @@
         <li><a href="#lists">Lists</a></li>
         <li><a href="#media">Media</a></li>
         <li><a href="#tables">Tables</a></li>
-        <li><a href="#forms">Forms</a></li>
       </ul>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </header>
 
 <section class="background jumbotron" id="jumbotron">
@@ -63,6 +62,8 @@
       <div class="item"><img src="http://placehold.it/500x500" alt="thumbnail"></div>
       <div class="item"><img src="http://placehold.it/500x500" alt="thumbnail"></div>
     </div>
+
+  </div>
 </section>
 
 <section id="buttons">
@@ -72,12 +73,6 @@
     <button class="btn-cool">Cool</button>
     <button class="btn-hot">Hot</button>
   </div><!-- container -->
-</section>
-
-<section class="bridge background">
-  <div class="container">
-    <h1>Bridge Background</h1>
-  </div>
 </section>
 
 <section id="lists">
@@ -102,29 +97,29 @@
         </li>
         <li>animi consectetur</li>
         <li>itaque placeat</li>
-      </ul>    
+      </ul>
     </article>
 
     <article>
-    <h2>Ordered</h2>
-    <ol>
-      <li>dolor sit amet</li>
-      <li>adipisicing elit
-        <ol>
-          <li>Incidunt ut nostrum</li>
-          <li>fuga impedit blanditiis
-            <ol>
-              <li>aspernatur nolla</li>
-              <li>illo pariatur sequi</li>
-            </ol>
-          </li>
-          <li>Incidunt ut nostrum</li>
-          <li>consectetur adipisicing</li>
-        </ol>
-      </li>
-      <li>animi consectetur</li>
-      <li>itaque placeat</li>
-    </ol>
+      <h2>Ordered</h2>
+      <ol>
+        <li>dolor sit amet</li>
+        <li>adipisicing elit
+          <ol>
+            <li>Incidunt ut nostrum</li>
+            <li>fuga impedit blanditiis
+              <ol>
+                <li>aspernatur nolla</li>
+                <li>illo pariatur sequi</li>
+              </ol>
+            </li>
+            <li>Incidunt ut nostrum</li>
+            <li>consectetur adipisicing</li>
+          </ol>
+        </li>
+        <li>animi consectetur</li>
+        <li>itaque placeat</li>
+      </ol>
     </article>
   </div><!-- container -->
 </section>
@@ -164,86 +159,51 @@
     <table class="table">
       <caption>Table Caption</caption>
       <thead>
-        <tr>
-          <th scope="column">Name</th>
-          <th scope="column">Features</th>
-          <th scope="column">Price</th>
-        </tr>
+      <tr>
+        <th scope="column">Name</th>
+        <th scope="column">Features</th>
+        <th scope="column">Price</th>
+      </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">Elit</th>
-          <td>Dolor, sit, amet, consectetur</td>
-          <td>$98.07</td>
-        </tr>
-        <tr>
-          <th scope="row">Ipsum</th>
-          <td>Adipisicing, elit, lorem</td>
-          <td>$847.88</td>
-        </tr>
-        <tr>
-          <th scope="row">Consectetur</th>
-          <td>Adio velit quae sapiente  </td>
-          <td>$.99</td>
-        </tr>
-        <tr>
-          <th scope="row">Adipisicing</th>
-          <td>Voluptate, placeat totam</td>
-          <td>$5.99</td>
-        </tr>
-        <tr>
-          <th scope="row">Reprehenderit</th>
-          <td>Fugit delectus asperiores</td>
-          <td>$99.77</td>
-        </tr>
-        <tr>
-          <th scope="row">Ipsum</th>
-          <td>Eius temporibus expedita</td>
-          <td>$38.59</td>
-        </tr>
+      <tr>
+        <th scope="row">Elit</th>
+        <td>Dolor, sit, amet, consectetur</td>
+        <td>$98.07</td>
+      </tr>
+      <tr>
+        <th scope="row">Ipsum</th>
+        <td>Adipisicing, elit, lorem</td>
+        <td>$847.88</td>
+      </tr>
+      <tr>
+        <th scope="row">Consectetur</th>
+        <td>Adio velit quae sapiente  </td>
+        <td>$.99</td>
+      </tr>
+      <tr>
+        <th scope="row">Adipisicing</th>
+        <td>Voluptate, placeat totam</td>
+        <td>$5.99</td>
+      </tr>
+      <tr>
+        <th scope="row">Reprehenderit</th>
+        <td>Fugit delectus asperiores</td>
+        <td>$99.77</td>
+      </tr>
+      <tr>
+        <th scope="row">Ipsum</th>
+        <td>Eius temporibus expedita</td>
+        <td>$38.59</td>
+      </tr>
       </tbody>
     </table>
   </div>
 </section>
 
-<section id="forms">
-  <div class="container">
-    <h1>Forms</h1>
-    <form>
-      <div class="form-group">
-        <label for="inputName">Name</label>
-        <input class="form-control" type="text" id="inputName" 
-          placeholder="Name">
-      </div>
-    <div class="form-group">
-      <label for="inputEmail">Email</label>
-      <input class="form-control" type="email" id="inputEmail" 
-        placeholder="Email">
-    </div>
-    <div class="form-group">
-      <label for="selectSite">Site</label>
-      <select class="form-control" id="selectSite">
-        <option>Choose...</option>
-        <option>lynda.com</option>
-        <option>raybo.org</option>
-        <option>iviewsource.com</option>
-      </select>  
-    </div>
-    <div class="checkbox">
-      <label><input id="inputAddList" type="checkbox">Add me to e-mail blast</label>
-    </div>
-    <div class="form-group">
-      <label for="inputComments">Comments</label>
-      <textarea class="form-control" id="inputComments"></textarea> 
-    </div>
-    <input class="btn btn-default pull-right" type="submit" value="submit">
-    </form>
-  </div>
-</section>
-        
 <footer>
-  <div class="container">
-    <nav>
+  <nav>
+    <div class="container">
       <ul>
         <li><a href="#jumbotron">Jumbotron</a></li>
         <li><a href="#palette">Palette</a></li>
@@ -252,12 +212,11 @@
         <li><a href="#lists">Lists</a></li>
         <li><a href="#media">Media</a></li>
         <li><a href="#tables">Tables</a></li>
-        <li><a href="#forms">Forms</a></li>
       </ul>
-    </nav>
-  </div>
-</footer>     
+    </div>
+  </nav>
+</footer>
 
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
